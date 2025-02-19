@@ -1,0 +1,19 @@
+{
+    "name": "alexander_iii/inmobiliaria-poo_php",
+    "description": "Pasando inmobiliaria con PDO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Sandor Benarik",
+            "email": "sanyimo@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7"
+    },
+    "autoload":{
+        "psr-4": {
+            "App\\" : "./classes"
+        }
+    }
+}
